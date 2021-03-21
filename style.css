@@ -1,0 +1,77 @@
+h1{
+    color: rgb(16, 187, 173);
+    font-size: 50px;
+}
+
+html{
+    background-color: rgb(114, 33, 4);
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    border: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+
+    position: relative;
+}
+
+.item img{
+    margin-left: 80px;
+}
+
+a{
+    color: rgb(0,0,0);
+}
+
+p{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.menu{
+    border: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.textTitle{
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.aboutMe1 a{
+    font-size: 15px;
+    color: white;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+.aboutMe2 a{
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.weirdIcon a{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.header{
+    border: solid;
+    border-color: rgb(71, 160, 29);
+    text-align: center;
+    background-color: rgb(90, 90, 90);
+}
